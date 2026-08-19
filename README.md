@@ -1,31 +1,24 @@
-# Mac System Monitor support site
+# Mac System Monitor support
 
-Public support, privacy, and security information for the Mac System Monitor Stream Deck plugin.
+Support, privacy, and security information for the Mac System Monitor Stream Deck plugin.
 
-Live URLs:
+## Help and contact
 
-- Site: https://msimon-labs.github.io/mac-system-monitor-support/
-- Support: https://msimon-labs.github.io/mac-system-monitor-support/#troubleshooting
-- Privacy: https://msimon-labs.github.io/mac-system-monitor-support/#privacy
-- Security: https://msimon-labs.github.io/mac-system-monitor-support/#security
-- Issues: https://github.com/msimon-labs/mac-system-monitor-support/issues
-- Private vulnerability reports: https://github.com/msimon-labs/mac-system-monitor-support/security/advisories/new
+- [Support and troubleshooting](https://msimon-labs.github.io/mac-system-monitor-support/)
+- [Report a non-sensitive bug](https://github.com/msimon-labs/mac-system-monitor-support/issues)
+- [Privacy information](https://msimon-labs.github.io/mac-system-monitor-support/#privacy)
+- [Security information](https://msimon-labs.github.io/mac-system-monitor-support/#security)
+- [Report a vulnerability privately](https://github.com/msimon-labs/mac-system-monitor-support/security/advisories/new)
 
-## Repository status
+## Compatibility
 
-- Public repository: enabled
-- GitHub Pages from `main` / repository root: enabled
-- Issues and bug-report form: enabled
-- Private vulnerability reporting: enabled
-- Desktop and mobile layout: checked
-- Support, Privacy, and Security URLs: prepared for Maker Console
+- Apple silicon Mac (`arm64`)
+- macOS 12 or later
+- Stream Deck 7.1 or later
+- A supported Stream Deck keypad model
 
-## Updating the site
+Intel Macs are not supported.
 
-1. Edit and preview `index.html` locally.
-2. Check desktop and mobile widths, links, focus visibility, and placeholder-free text.
-3. Commit and push to `main`.
-4. Wait for the Pages build to complete.
-5. Verify the live URL and repository settings.
+## Privacy summary
 
-No analytics, cookies, remote scripts, or external fonts are used. The product source code and installer do not need to be published in this support repository.
+Mac System Monitor runs locally. It has no analytics, cloud account, configured external network endpoint, remote script, or runtime download. Process names remain in the current snapshot and are not written to plugin history, logs, or settings.
