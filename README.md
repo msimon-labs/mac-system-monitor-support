@@ -2,7 +2,7 @@
 
 Public support, privacy, and security information for the Mac System Monitor Stream Deck plugin.
 
-Planned URLs:
+Live URLs:
 
 - Site: https://msimon-labs.github.io/mac-system-monitor-support/
 - Support: https://msimon-labs.github.io/mac-system-monitor-support/#troubleshooting
@@ -11,16 +11,21 @@ Planned URLs:
 - Issues: https://github.com/msimon-labs/mac-system-monitor-support/issues
 - Private vulnerability reports: https://github.com/msimon-labs/mac-system-monitor-support/security/advisories/new
 
-## Publication checklist
+## Repository status
 
-1. Register the GitHub account `msimon-labs`.
-2. Create a public repository named `mac-system-monitor-support`.
-3. Upload this directory to the repository's `main` branch.
-4. Enable GitHub Pages from `main` / repository root.
-5. Enable Issues.
-6. Enable private vulnerability reporting under **Settings → Security → Code security and analysis**.
-7. Confirm every URL above resolves without authentication.
-8. Check the site at desktop and mobile widths.
-9. Copy the Support, Privacy, and Security URLs into Maker Console.
+- Public repository: enabled
+- GitHub Pages from `main` / repository root: enabled
+- Issues and bug-report form: enabled
+- Private vulnerability reporting: enabled
+- Desktop and mobile layout: checked
+- Support, Privacy, and Security URLs: prepared for Maker Console
+
+## Updating the site
+
+1. Edit and preview `index.html` locally.
+2. Check desktop and mobile widths, links, focus visibility, and placeholder-free text.
+3. Commit and push to `main`.
+4. Wait for the Pages build to complete.
+5. Verify the live URL and repository settings.
 
 No analytics, cookies, remote scripts, or external fonts are used. The product source code and installer do not need to be published in this support repository.
