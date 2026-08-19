@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible Mac System Monitor problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include passwords, tokens, private keys, cookies, complete credential files, or private process names.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "Example: macOS 26.5.2"
+    validations:
+      required: true
+  - type: input
+    id: stream-deck
+    attributes:
+      label: Stream Deck version
+      placeholder: "Example: 7.5.1"
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      placeholder: "Example: 1.0.0.1"
+    validations:
+      required: true
+  - type: input
+    id: action
+    attributes:
+      label: Action and view
+      placeholder: "Example: GPU — History"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include exact visible status or error text and concise reproduction steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials, private process names, serial numbers, and other personal data.
+          required: true
+        - label: This is not a sensitive security report. Sensitive reports use private vulnerability reporting.
+          required: true

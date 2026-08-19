@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support and privacy guide
+    url: https://msimon-labs.github.io/mac-system-monitor-support/
+    about: Read requirements, setup, troubleshooting, privacy, and security information.
+  - name: Private security report
+    url: https://github.com/msimon-labs/mac-system-monitor-support/security/advisories/new
+    about: Report suspected vulnerabilities privately. Do not use a public issue.
